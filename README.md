@@ -1,6 +1,6 @@
 # Mood-Based Music Recommendation 🎵
 
-This project is a mood-based music recommendation system built with React and Java Spring Boot / Flask. It detects mood from user input (text/speech/facial expression) and recommends songs accordingly.
+This project is a mood-based music recommendation system built with React and Flask. It detects mood from user input (text/speech/facial expression) and recommends songs accordingly.
 
 ## Getting Started with Create React App
 
