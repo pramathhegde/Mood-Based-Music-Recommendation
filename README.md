@@ -24,3 +24,7 @@ For more details, check the [React documentation](https://reactjs.org/).
 - Mood Detection via Text / Webcam
 - Song Recommendations
 - Spotify / YouTube Integration (Planned)
+
+python app.py
+
+node server.js 
