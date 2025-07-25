@@ -1,0 +1,70 @@
+/* Container card style */
+.app-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+.app-header {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #3a3a3a;
+  font-weight: 700;
+}
+
+/* Mode toggle container */
+.mode-toggle-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 30px;
+}
+
+/* Mode toggle labels */
+.mode-toggle-label {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 2px solid #ccc;
+  color: #666;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+/* Active mode toggle */
+.mode-toggle-label.active {
+  border-color: #1DB954;
+  color: #1DB954;
+  font-weight: 700;
+}
+
+/* Hide the radio buttons */
+.mode-toggle-label input[type="radio"] {
+  display: none;
+}
+
+/* Detected mood text */
+.detected-mood {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #999;
+}
+
+.detected-mood.active {
+  color: #1DB954;
+}
+
+/* Error message */
+.error-message {
+  text-align: center;
+  color: red;
+  margin-top: 10px;
+}

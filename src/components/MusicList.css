@@ -1,0 +1,65 @@
+/* src/components/MusicList.css */
+.music-list {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.music-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.music-list li {
+  margin: 10px 0;
+}
+
+/* src/components/MusicList.css */
+
+.music-list-container {
+  padding: 1rem;
+}
+
+.music-columns {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.music-column {
+  flex: 1 1 30%;
+  min-width: 200px;
+  background: #f0f0f0;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.music-column h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.3rem;
+}
+
+.music-column ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.music-column li {
+  margin-bottom: 0.5rem;
+}
+
+.music-column a {
+  text-decoration: none;
+  color: #0077cc;
+  transition: color 0.3s ease;
+}
+
+.music-column a:hover {
+  color: #005fa3;
+}

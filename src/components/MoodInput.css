@@ -1,0 +1,49 @@
+.mood-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;  /* Center vertically */
+  margin-top: 20px;
+  gap: 12px;  /* Slightly increased space between inputs and buttons */
+  flex-wrap: wrap; /* responsive wrapping */
+}
+
+.mood-input {
+  padding: 10px;
+  flex: 1 1 60%; /* flexible width */
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  min-width: 180px; /* min width for small screens */
+  outline-offset: 2px; /* better focus visibility */
+}
+
+.submit-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  min-width: 100px;
+  user-select: none; /* prevent accidental text selection */
+}
+
+.submit-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.submit-button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+/* Separate style for voice button */
+.voice-button {
+  background-color: #28a745;
+}
+
+.voice-button:hover:not(:disabled) {
+  background-color: #1e7e34;
+}

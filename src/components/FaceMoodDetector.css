@@ -1,0 +1,24 @@
+.webcam_start {
+  padding: 10px 20px;
+  background-color: #4caf50; /* green */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.webcam_start:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.webcam_start:hover:not(:disabled) {
+  background-color: #45a049;
+}
+
+video {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  margin-top: 10px;
+}
